@@ -1,0 +1,19 @@
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>hello1</servlet-name>
+		<servlet-class>com.servlet.demo.HttpServletDemo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>hello1</servlet-name>
+		<url-pattern>/hello</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>hi1</servlet-name>
+		<servlet-class>com.servlet.demo.ServletInterfaceDemo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>hi1</servlet-name>
+		<url-pattern>/hi</url-pattern>
+	</servlet-mapping>
+</web-app>
